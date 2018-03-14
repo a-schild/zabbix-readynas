@@ -4,6 +4,17 @@
 
 Written by andre@schild.ws
 
+## Features
+- LLD of disks, fans, temperature sensors, volumes, partitions, inetrfaces and processors
+- Creation of graph and triggers
+- No need to deploy MIB files to servers/agents, we work with direct OID's
+
+## How to install
+- Import the template in Zabbix
+- Assign it to your devices
+- Enable SNMP on the device(s) and set a password
+- Configure the password in the macro part of the device
+- Make sure that your zabbix server or proxy hast SNMP agent enabled
 
 ## Known Problems
 - The ReadyNAS firmware has a know bug which results in -1 temperature values
