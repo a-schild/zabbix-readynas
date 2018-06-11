@@ -10,6 +10,8 @@ Written by andre@schild.ws
 - No need to deploy MIB files to servers/agents, we work with direct OID's
 
 ## How to install
+- If you don't have the default snmp templates installed, install them from here:
+  https://www.zabbix.org/wiki/Zabbix_Templates/Official_Templates
 - Import the template in Zabbix
 - Assign it to your devices
 - Enable SNMP on the device(s) and set a password
